@@ -1,0 +1,189 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf) format('truetype');
+}
+
+
+.container {
+  background-color: #141414;
+}
+
+
+.boxzone {
+    background-color: #242222ff;
+    width: 300px;
+    max-width: 380px;
+    max-height: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 35px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-container {
+    text-align: center;
+   
+}
+.avatar {
+  background-image: url('assets/images/avatar-jessica.jpeg');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 0px;
+  font-family: myFirstFont, sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.location {
+  color: #C4F82A;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  font-family: myFirstFont, sans-serif;
+}
+.description {
+  color: #ffffff;
+  font-size: 13px;
+  margin-bottom: 15px;
+  font-family: myFirstFont, sans-serif;
+}
+
+.GitHub{
+padding: 10px 20px;
+  background-color: rgba(51, 51, 51, 51);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+padding-left: 130px; 
+padding-right: 120px; 
+  margin-bottom: 10px;
+  cursor: pointer;
+ border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+font-family: myFirstFont, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+.GitHub:hover {
+  background-color: #89ff02ff;
+  color: #242222ff;
+  transform: translateY(-2px);
+  font-weight: 700;
+}
+
+.frontendmentor {
+  padding: 10px 20px 10px 10px;
+  background-color: rgba(51, 51, 51, 51);
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 100px; 
+  padding-right: 90px; 
+  font-size: 13px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+  cursor: pointer;
+ border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: myFirstFont, sans-serif;
+  font-weight: 500;
+}
+.frontendmentor:hover {
+  background-color: #89ff02ff;
+  color: #242222ff;
+  transform: translateY(-2px);
+  font-weight: 700;
+}
+
+.LinkedIn {
+  padding: 10px 20px;
+  background-color: rgba(51, 51, 51, 51);
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 120px; 
+  padding-right: 120px;
+  font-size: 14px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+  cursor: pointer;
+ border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: myFirstFont, sans-serif;
+  font-weight: 500;       
+}
+.LinkedIn:hover { 
+  background-color: #89ff02ff;
+  color: #242222ff;
+  transform: translateY(-2px);
+  font-weight: 700;
+}
+
+.Twitter {
+  padding: 10px 20px;
+  background-color: rgba(51, 51, 51, 51);
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 120px; 
+  padding-right: 130px;
+  font-align: center; 
+  font-size: 14px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+  cursor: pointer;
+ border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: myFirstFont, sans-serif;
+  font-weight: 500;
+}
+.Twitter:hover {
+  background-color: #89ff02ff;
+  color: #242222ff;
+  transform: translateY(-2px);
+  font-weight: 700;
+}
+
+.Instagram {
+  padding: 10px 20px;
+  background-color: rgba(51, 51, 51, 51);
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 120px; 
+  padding-right: 112px;
+  font-size: 14px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+  cursor: pointer;
+ border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+ font-family: myFirstFont, sans-serif;
+ font-weight: 500;       
+}
+.Instagram:hover {
+  background-color: #89ff02ff;
+  color: #242222ff;
+  transform: translateY(-2px);
+  font-weight: 700;
+}
